@@ -1,0 +1,29 @@
+let fruits = ["Apple", "Orange", "Plum"];
+undefined
+let n = 2
+undefined
+fruits[n]
+"Plum"
+let dayName = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
+undefined
+dayName[+prompt("No. ")]
+"tue"
+let n = +prompt("No.")
+console.log("Key No. = " + n)
+VM1214:2 Key No. = 2
+undefined
+dayName[n]
+"tue"
+
+let dayName = ["sun", "mon", "tue", "wed", "thu", "fri", "sat", "Holiday", null, "Goodday", 2020]
+undefined
+let n = +prompt("No.")
+console.log("Key No. = " + n)
+VM1303:2 Key No. = 7
+undefined
+dayName[7]
+"Holiday"
+dayName[n]
+"Holiday"
+dayName[n - 1]
+"sat"
