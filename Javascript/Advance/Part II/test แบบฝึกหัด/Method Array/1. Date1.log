@@ -1,0 +1,14 @@
+let date = new Date(98, 1, 10)
+undefined
+date
+Tue Feb 10 1998 00:00:00 GMT+0700 (Indochina Time)
+let date = new Date(98, 2)
+undefined
+date
+Sun Mar 01 1998 00:00:00 GMT+0700 (Indochina Time)
+let date = new Date(98, 2, 2)
+undefined
+date
+Mon Mar 02 1998 00:00:00 GMT+0700 (Indochina Time)
+// new Date(year, mounth ( Feb = 1), date)
+undefined

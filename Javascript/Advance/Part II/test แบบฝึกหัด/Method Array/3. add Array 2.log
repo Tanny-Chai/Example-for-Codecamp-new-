@@ -1,0 +1,24 @@
+let a1 = [ {name: "John", Surname: "Jee"}]
+let a2 = a1.map( x => x)
+undefined
+a2
+[{…}]0: {name: "John", Surname: "Jee"}length: 1[[Prototype]]: Array(0)
+let a1 = [ {name: "John", Surname: "Jee"}]
+let a2 = a1.map( x => console.log(x) )
+VM2683:2 {name: "John", Surname: "Jee"}
+undefined
+a2
+[undefined]0: undefinedlength: 1[[Prototype]]: Array(0)
+let a1 = [ 
+            {name: "John", Surname: "Jee"},
+            {name: "Nim", Surname: "Nui"}
+         ]
+undefined
+let a2 = a1.map( x => x)
+undefined
+a2
+(2) [{…}, {…}]0: {name: "John", Surname: "Jee"}1: {name: "Nim", Surname: "Nui"}length: 2[[Prototype]]: Array(0)
+let a2 = a1.map( x => x + 5)
+undefined
+a2
+(2) ["[object Object]5", "[object Object]5"]0: "[object Object]5"1: "[object Object]5"length: 2[[Prototype]]: Array(0)

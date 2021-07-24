@@ -1,0 +1,20 @@
+let dayName = ["sun", "mon", "tue", "wed", "thu", "fri", "sat", "Holiday"]
+undefined
+dayName[9] = "Goodday"
+"Goodday"
+dayName
+(10) ["sun", "mon", "tue", "wed", "thu", "fri", "sat", "Holiday", empty, "Goodday"]
+dayName[8]
+undefined
+dayName[8] = null
+null
+dayName
+(10) ["sun", "mon", "tue", "wed", "thu", "fri", "sat", "Holiday", null, "Goodday"]
+dayName[10] = 2020
+2020
+dayName
+(11) ["sun", "mon", "tue", "wed", "thu", "fri", "sat", "Holiday", null, "Goodday", 2020]
+//ใส่ได้หลาย data type
+undefined
+//JS การเขียนง่าย แต่มีโอกาสเกิดบัคได้มากกว่า
+undefined

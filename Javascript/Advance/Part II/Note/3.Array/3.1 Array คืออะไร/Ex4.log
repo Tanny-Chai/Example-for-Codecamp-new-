@@ -1,0 +1,10 @@
+let fruits = ["Apple", "Orange", "Plum"];
+undefined
+fruits
+(3) ["Apple", "Orange", "Plum"]
+fruits[2]
+"Plum"
+fruits[0]
+"Apple"
+fruits.length
+3

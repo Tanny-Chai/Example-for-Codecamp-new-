@@ -1,0 +1,38 @@
+let today = new Date()
+undefined
+today
+Thu Jul 22 2021 17:35:09 GMT+0700 (Indochina Time)
+let year = today.getYear()
+undefined
+year
+121
+let Pat = new Date(89, 9, 5)
+undefined
+Pat
+Thu Oct 05 1989 00:00:00 GMT+0700 (Indochina Time)
+let yPat = Pat.getYear()
+undefined
+yPat
+89
+//ถ้าเป็นปีตั้งแต่ 1990 - 1999 จะแสดงตัวเลขจริง
+undefined
+//ถ้าปีมากกว่า 1999 จะบวกด้วย 100
+undefined
+//ถ้าปีน้อยกว่า 1990 จะลบด้วย 100
+undefined
+let today = new Date()
+undefined
+today
+Thu Jul 22 2021 17:39:21 GMT+0700 (Indochina Time)
+let currentYear = today.getYear() - 100
+undefined
+currentYear
+21
+let a = currentYear - yPat
+undefined
+a
+-68
+year - yPat
+32
+//เวลานำไปคิด ไม่ต้องลบหรือบวก 100 ใดๆ
+undefined

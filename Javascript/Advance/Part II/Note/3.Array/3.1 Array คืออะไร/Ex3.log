@@ -1,0 +1,6 @@
+let dayName2 = new Array('mon', 'tue', 'wed', 'thu', 'fri')
+undefined
+dayName2
+(5) ["mon", "tue", "wed", "thu", "fri"]
+//เหมือน Array ปกติ
+undefined
