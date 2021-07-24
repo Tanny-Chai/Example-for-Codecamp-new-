@@ -1,0 +1,11 @@
+let fruits = ["Apple", "Orange", "Pear", "Mango", "Grape", "Pineapple"]
+undefined
+for(let i = 0; i < fruits.length; i++)
+    console.log(fruits[i])
+VM795:2 Apple
+VM795:2 Orange
+VM795:2 Pear
+VM795:2 Mango
+VM795:2 Grape
+VM795:2 Pineapple
+undefined
