@@ -1,0 +1,9 @@
+let arr = [ 
+            function() { alert("Hello") },
+            function() { alert("สวัสดี") },
+            function() { alert("Hola") }
+]
+undefined
+for(let i = 0; i < arr.length; i++)
+    arr[i]()
+undefined

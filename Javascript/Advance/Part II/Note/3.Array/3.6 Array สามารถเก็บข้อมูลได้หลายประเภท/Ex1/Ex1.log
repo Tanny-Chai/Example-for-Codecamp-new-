@@ -1,0 +1,30 @@
+let arr = [ 
+            function() { alert("Hello") },
+            function() { alert("สวัสดี") },
+            function() { alert("Hola") }
+]
+undefined
+arr
+(3) [ƒ, ƒ, ƒ]
+arr[1]
+ƒ () { alert("สวัสดี") }
+arr[0]
+ƒ () { alert("Hello") }
+//ยังไม่ทำงาน เพราะมันเป็นฟังก์ชั่น
+undefined
+//การจะใช้ฟังก์ชันทำงาน ต้องใส่ () ต่อท้ายด้วย
+undefined
+arr[0]()
+undefined
+arr[1]()
+undefined
+arr[2]()
+undefined
+arr[3]()
+VM501:1 Uncaught TypeError: arr[3] is not a function
+    at <anonymous>:1:7
+(anonymous) @ VM501:1
+//ไม่มี จึงเป็น Error
+undefined
+arr.length
+3
