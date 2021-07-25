@@ -1,0 +1,48 @@
+let products = [
+    { Pname: 'Apple', price: 100 },
+    { Pname: 'Orange', price: 200 },
+    { Pname: 'Grape', price: 300 }
+]
+undefined
+products.push( {Pname : 'Mango', price : 400} )
+4
+products
+(4) [{…}, {…}, {…}, {…}]
+0: {Pname: "Apple", price: 100}
+1: {Pname: "Orange", price: 200}
+2: {Pname: "Grape", price: 300}
+3: {Pname: "Mango", price: 400}
+length: 4[[Prototype]]: Array(0)
+
+products.push( {} )
+5
+products
+(5) [{…}, {…}, {…}, {…}, {…}]
+0: {Pname: "Apple", price: 100}
+1: {Pname: "Orange", price: 200}
+2: {Pname: "Grape", price: 300}
+3: {Pname: "Mango", price: 400}
+4: {}
+length: 5[[Prototype]]: Array(0)
+
+products[4].Pname = "Pineapple"
+"Pineapple"
+products
+(5) [{…}, {…}, {…}, {…}, {…}]
+0: {Pname: "Apple", price: 100}
+1: {Pname: "Orange", price: 200}
+2: {Pname: "Grape", price: 300}
+3: {Pname: "Mango", price: 400}
+4: {Pname: "Pineapple"}
+length: 5[[Prototype]]: Array(0)
+
+products[4].prie = 500
+500
+products
+(5) [{…}, {…}, {…}, {…}, {…}]
+0: {Pname: "Apple", price: 100}
+1: {Pname: "Orange", price: 200}
+2: {Pname: "Grape", price: 300}
+3: {Pname: "Mango", price: 400}
+4: {Pname: "Pineapple", prie: 500}
+length: 5[[Prototype]]: Array(0)

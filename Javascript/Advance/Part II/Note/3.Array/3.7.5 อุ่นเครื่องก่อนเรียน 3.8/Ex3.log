@@ -1,0 +1,16 @@
+let dayName = ["sun", "mon", "tue", "wed", "thu", "fri", "sat", "Holiday", null, "Goodday", 2020]
+undefined
+let arr = []
+undefined
+arr[123] = 12
+12
+arr
+(124) [empty × 123, 12]123: 12length: 124
+arr.length
+124
+dayName.length = 7
+7
+dayName
+(7) ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
+// ระวัง! ตัดทิ้งแล้วเอาคืนไม่ได้
+undefined
