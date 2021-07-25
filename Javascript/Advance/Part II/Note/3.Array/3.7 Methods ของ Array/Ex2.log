@@ -1,0 +1,30 @@
+let fruits = ["Orange", "Pear", "Mango", "Grape", "Pineapple", "Papaya"]
+undefined
+let b = fruits.pop()
+undefined
+b
+"Papaya"
+let b = fruits.pop()
+undefined
+b
+"Pineapple"
+fruits
+(4) ["Orange", "Pear", "Mango", "Grape"]
+fruits.push("Pineapple")
+5
+fruits
+(5) ["Orange", "Pear", "Mango", "Grape", "Pineapple"]
+fruits.push("Apple")
+6
+fruits
+(6) ["Orange", "Pear", "Mango", "Grape", "Pineapple", "Apple"]
+fruits.unshift("Apple")
+7
+fruits
+(7) ["Apple", "Orange", "Pear", "Mango", "Grape", "Pineapple", "Apple"]
+//ข้อมูลซ้ำกันได้ โปรแกรมไม่สนใจ
+undefined
+fruits.pop()
+"Apple"
+fruits
+(6) ["Apple", "Orange", "Pear", "Mango", "Grape", "Pineapple"]
