@@ -1,0 +1,25 @@
+let dayName = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
+undefined
+for(let i = 0; i < dayName.length; i++)
+    console.log(dayName[i])
+VM1792:2 sun
+VM1792:2 mon
+VM1792:2 tue
+VM1792:2 wed
+VM1792:2 thu
+VM1792:2 fri
+VM1792:2 sat
+undefined
+
+for(let i = 0; i < dayName.length; i++) {
+    dayName[i] = dayName[i].toUpperCase()
+    console.log(dayName[i])
+}
+VM1982:3 SUN
+VM1982:3 MON
+VM1982:3 TUE
+VM1982:3 WED
+VM1982:3 THU
+VM1982:3 FRI
+VM1982:3 SAT
+undefined

@@ -1,0 +1,26 @@
+let dayName = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
+undefined
+for(let d of dayName) {
+    d = d.toUpperCase()
+    console.log(d)
+}
+VM2142:3 SUN
+VM2142:3 MON
+VM2142:3 TUE
+VM2142:3 WED
+VM2142:3 THU
+VM2142:3 FRI
+VM2142:3 SAT
+undefined
+for(let d of dayName) {
+    d = d.toLowerCase()
+    console.log(d)
+}
+VM2160:3 sun
+VM2160:3 mon
+VM2160:3 tue
+VM2160:3 wed
+VM2160:3 thu
+VM2160:3 fri
+VM2160:3 sat
+undefined

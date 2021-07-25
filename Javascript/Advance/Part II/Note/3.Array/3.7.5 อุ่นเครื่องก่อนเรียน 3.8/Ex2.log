@@ -8,7 +8,12 @@ undefined
 let pp = products.pop()
 undefined
 products
-(3) [{…}, {…}, {…}]0: {Pname: "Apple", price: 100}1: {Pname: "Orange", price: 200}2: {Pname: "Grape", price: 300}length: 3[[Prototype]]: Array(0)
+(3) [{…}, {…}, {…}]
+0: {Pname: "Apple", price: 100}
+1: {Pname: "Orange", price: 200}
+2: {Pname: "Grape", price: 300}
+length: 3[[Prototype]]: Array(0)
+
 pp
 {Pname: "Pineapple", price: 500}
 pp.Pname
