@@ -1,0 +1,53 @@
+let products = [
+    { Pname: 'Apple', price: 100 },
+    { Pname: 'Orange', price: 200 },
+    { Pname: 'Grape', price: 300 },
+    { Pname: "Mango", price: 400 },
+    { name: "Pineapple", prie: 500 }
+]
+undefined
+for(let p in products)
+    console.log(p)
+VM127:2 0
+VM127:2 1
+VM127:2 2
+VM127:2 3
+VM127:2 4
+undefined
+products
+(5) [{…}, {…}, {…}, {…}, {…}]0: {Pname: "Apple", price: 100}1: {Pname: "Orange", price: 200}2: {Pname: "Grape", price: 300}3: {Pname: "Mango", price: 400}4: {name: "Pineapple", prie: 500}length: 5[[Prototype]]: Array(0)
+let pp = products.pop()
+undefined
+pp
+{name: "Pineapple", prie: 500}
+for(let k in pp)
+    console.log(k)
+VM335:2 name
+VM335:2 prie
+undefined
+//ได้ข้อมูลฝั่งซ้าย
+undefined
+
+for(let k in pp){
+    console.log(k)
+    console.log(pp[k])
+}
+VM489:2 name
+VM489:3 Pineapple
+VM489:2 prie
+VM489:3 500
+undefined
+for(let k in pp){
+    console.log(k + ":" + " " + pp[k])
+}
+VM552:2 name: Pineapple
+VM552:2 prie: 500
+undefined
+for(let k in pp){
+    console.log(k, pp[k])
+}
+VM585:2 name Pineapple
+VM585:2 prie 500
+undefined
+products[0]["Pname"]
+"Apple"
