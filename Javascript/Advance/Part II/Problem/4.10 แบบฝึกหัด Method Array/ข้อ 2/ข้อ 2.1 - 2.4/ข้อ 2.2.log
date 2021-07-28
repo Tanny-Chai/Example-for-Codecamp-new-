@@ -1,0 +1,6 @@
+let array1 = [1, 2, 3, 4]
+undefined
+let array2 = array1.filter( x => (x % 2 == 1) )
+undefined
+array2
+(2) [1, 3]

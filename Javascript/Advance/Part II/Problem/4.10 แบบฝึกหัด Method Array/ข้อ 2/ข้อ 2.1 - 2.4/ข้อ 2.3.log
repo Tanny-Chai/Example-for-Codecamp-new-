@@ -1,0 +1,11 @@
+let array1 = [1, "1", 2, {}]
+undefined
+function numOnly(val) {
+    if( typeof(val) === 'number' )
+        return val;
+}
+undefined
+let array2 = array1.filter(numOnly)
+undefined
+array2
+(2) [1, 2]

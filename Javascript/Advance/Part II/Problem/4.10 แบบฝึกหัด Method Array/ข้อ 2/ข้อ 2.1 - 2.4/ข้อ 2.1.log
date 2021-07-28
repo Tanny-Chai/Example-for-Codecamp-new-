@@ -1,0 +1,6 @@
+let array1 = [1, 2, 30, 400]
+undefined
+let array2 = array1.filter( x => x > 10 )
+undefined
+array2
+(2) [30, 400]
