@@ -1,0 +1,6 @@
+let array1 = ["APPLE", "appLE", "PEACH", "PEach"]
+undefined
+let array2 = array1.filter( x => x == x.toUpperCase() )
+undefined
+array2
+(2) ["APPLE", "PEACH"]
