@@ -1,0 +1,17 @@
+let array1 = [
+      { name: "apple", age: 14 },
+      { name: "banana", age: 18 },
+      { name: "watermelon", age: 32 },
+      { name: "pineapple", age: 16 },
+      { name: "peach", age: 24 },
+    ]
+undefined
+let array2 = array1.filter( x => x.age != 32 )
+undefined
+array2
+(4) [{…}, {…}, {…}, {…}]0: 
+{name: "apple", age: 14}1: 
+{name: "banana", age: 18}2: 
+{name: "pineapple", age: 16}3: 
+{name: "peach", age: 24}
+length: 4[[Prototype]]: Array(0)
