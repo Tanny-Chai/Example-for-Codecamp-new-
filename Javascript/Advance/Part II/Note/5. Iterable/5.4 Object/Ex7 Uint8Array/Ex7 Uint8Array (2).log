@@ -1,0 +1,22 @@
+console.dir(Uint8Array)
+VM2079:1 ƒ Uint8Array()BYTES_PER_ELEMENT: 1arguments: (...)caller: (...)length: 3name: "Uint8Array"prototype: TypedArrayBYTES_PER_ELEMENT: 1buffer: (...)byteLength: (...)byteOffset: (...)constructor: ƒ Uint8Array()length: (...)Symbol(Symbol.toStringTag): (...)[[Prototype]]: Objectat: ƒ at()buffer: (...)byteLength: (...)byteOffset: (...)constructor: ƒ TypedArray()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: (...)map: ƒ map()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()set: ƒ ()slice: ƒ slice()some: ƒ some()sort: ƒ sort()subarray: ƒ subarray()toLocaleString: ƒ toLocaleString()toString: ƒ toString()values: ƒ values()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.toStringTag): (...)get buffer: ƒ buffer()get byteLength: ƒ byteLength()get byteOffset: ƒ byteOffset()get length: ƒ length()get Symbol(Symbol.toStringTag): ƒ [Symbol.toStringTag]()[[Prototype]]: ObjectSymbol(Symbol.species): (...)[[Prototype]]: ƒ TypedArray()[[Scopes]]: Scopes[0]
+undefined
+let nu = new Uint8Array(10).fill(0)
+undefined
+nu
+Uint8Array(10) [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]0: 01: 02: 03: 04: 05: 06: 07: 08: 09: 0buffer: (...)byteLength: (...)byteOffset: (...)length: (...)Symbol(Symbol.toStringTag): (...)[[Prototype]]: TypedArray
+//แสดงว่าใช้ for of ได้
+undefined
+for(let x of nu)
+    console.log(x)
+VM2426:2 0
+VM2426:2 0
+VM2426:2 0
+VM2426:2 0
+VM2426:2 0
+VM2426:2 0
+VM2426:2 0
+VM2426:2 0
+VM2426:2 0
+VM2426:2 0
+undefined

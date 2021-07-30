@@ -1,0 +1,11 @@
+//Array ก็เป็น Iterable เช่นเดียวกัน
+undefined
+//แต่ Object ไม่เป็น Iterable
+undefined
+let user = { name: "John", age: 24 }
+undefined
+for(let x of user)
+    console.log(x)
+VM1536:1 Uncaught TypeError: user is not iterable
+    at <anonymous>:1:14
+(anonymous) @ VM1536:1

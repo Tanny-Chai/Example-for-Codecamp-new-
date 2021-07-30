@@ -1,0 +1,12 @@
+let str = "HTML, CSS, Javascript"
+undefined
+
+let srr = []
+undefined
+for(let s of str) {
+    if (s === ',') s='_'
+    srr.push(s)
+}
+21
+srr
+(21) ["H", "T", "M", "L", "_", " ", "C", "S", "S", "_", " ", "J", "a", "v", "a", "s", "c", "r", "i", "p", "t"]

@@ -1,0 +1,3 @@
+console.dir(Set)
+VM1931:1 ƒ Set()arguments: (...)caller: (...)length: 0name: "Set"prototype: Setadd: ƒ add()clear: ƒ clear()constructor: ƒ Set()delete: ƒ delete()entries: ƒ entries()forEach: ƒ forEach()has: ƒ has()keys: ƒ values()size: (...)values: ƒ values()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.toStringTag): "Set"get size: ƒ size()[[Prototype]]: ObjectSymbol(Symbol.species): (...)get Symbol(Symbol.species): ƒ [Symbol.species]()[[Prototype]]: ƒ ()[[Scopes]]: Scopes[0]
+undefined

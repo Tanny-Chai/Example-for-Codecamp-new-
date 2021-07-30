@@ -1,0 +1,47 @@
+let range = {
+  from: 1,
+  to: 5
+};
+
+// 1. call to for..of initially calls this
+range[Symbol.iterator] = function() {
+
+  // ...it returns the iterator object:
+  // 2. Onward, for..of works only with this iterator, asking it for next values
+  return {
+    current: this.from,
+    last: this.to,
+
+    // 3. next() is called on each iteration by the for..of loop
+    next() {
+      // 4. it should return the value as an object {done:.., value :...}
+      if (this.current <= this.last) {
+        return { done: false, value: this.current++ };
+      } else {
+        return { done: true };
+      }
+    }
+  };
+};
+ƒ () {
+
+  // ...it returns the iterator object:
+  // 2. Onward, for..of works only with this iterator, asking it for next values
+  return {
+    current: this.from,
+    last: this.to,
+
+    // 3. next() …
+range
+{from: 1, to: 5, Symbol(Symbol.iterator): ƒ}
+console.dir(range)
+VM2499:1 Objectfrom: 1to: 5Symbol(Symbol.iterator): ƒ ()[[Prototype]]: Objectconstructor: ƒ Object()hasOwnProperty: ƒ hasOwnProperty()isPrototypeOf: ƒ isPrototypeOf()propertyIsEnumerable: ƒ propertyIsEnumerable()toLocaleString: ƒ toLocaleString()toString: ƒ toString()valueOf: ƒ valueOf()__defineGetter__: ƒ __defineGetter__()__defineSetter__: ƒ __defineSetter__()__lookupGetter__: ƒ __lookupGetter__()__lookupSetter__: ƒ __lookupSetter__()get __proto__: ƒ __proto__()set __proto__: ƒ __proto__()
+undefined
+for(let x of range)
+    console.log(x)
+VM2604:2 1
+VM2604:2 2
+VM2604:2 3
+VM2604:2 4
+VM2604:2 5
+undefined

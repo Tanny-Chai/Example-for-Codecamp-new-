@@ -1,0 +1,3 @@
+console.dir(Map)
+VM1792:1 ƒ Map()arguments: (...)caller: (...)length: 0name: "Map"prototype: Mapclear: ƒ clear()constructor: ƒ Map()delete: ƒ delete()entries: ƒ entries()forEach: ƒ forEach()get: ƒ ()has: ƒ has()keys: ƒ keys()set: ƒ ()size: (...)values: ƒ values()Symbol(Symbol.iterator): ƒ entries()Symbol(Symbol.toStringTag): "Map"get size: ƒ size()[[Prototype]]: ObjectSymbol(Symbol.species): (...)get Symbol(Symbol.species): ƒ [Symbol.species]()[[Prototype]]: ƒ ()[[Scopes]]: Scopes[0]
+undefined

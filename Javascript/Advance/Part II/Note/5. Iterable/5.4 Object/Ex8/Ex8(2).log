@@ -1,0 +1,50 @@
+let range = {
+  from: 0,
+  to: 20
+};
+
+
+range[Symbol.iterator] = function() {
+
+  
+  return {
+    current: this.from,
+    last: this.to,
+
+    
+    next() {
+      // 4. it should return the value as an object {done:.., value :...}
+      if (this.current <= this.last) {
+        return { done: false, value: this.current+=2 };
+      } else {
+        return { done: true };
+      }
+    }
+  };
+};
+ƒ () {
+
+  
+  return {
+    current: this.from,
+    last: this.to,
+
+    
+    next() {
+      // 4. it should return the value as an object {done:.., value :...}
+      if (this.current <= this.last) {
+    …
+for(let x of range)
+    console.log(x)
+VM854:2 2
+VM854:2 4
+VM854:2 6
+VM854:2 8
+VM854:2 10
+VM854:2 12
+VM854:2 14
+VM854:2 16
+VM854:2 18
+VM854:2 20
+VM854:2 22
+undefined

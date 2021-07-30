@@ -1,0 +1,12 @@
+let user = { name: "John", age: 24 }
+undefined
+console.dir(user)
+VM1611:1 Objectage: 24name: "John"[[Prototype]]: Object
+undefined
+console.dir(array)
+VM1684:1 Uncaught ReferenceError: array is not defined
+    at <anonymous>:1:13
+(anonymous) @ VM1684:1
+console.dir(Array)
+VM1712:1 ƒ Array()arguments: (...)caller: (...)from: ƒ from()isArray: ƒ isArray()length: 1name: "Array"of: ƒ of()prototype: Array(0)at: ƒ at()concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()flat: ƒ flat()flatMap: ƒ flatMap()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toString: ƒ toString()unshift: ƒ unshift()values: ƒ values()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {copyWithin: true, entries: true, fill: true, find: true, findIndex: true, …}[[Prototype]]: ObjectSymbol(Symbol.species): (...)get Symbol(Symbol.species): ƒ [Symbol.species]()[[Prototype]]: ƒ ()[[Scopes]]: Scopes[0]
+undefined

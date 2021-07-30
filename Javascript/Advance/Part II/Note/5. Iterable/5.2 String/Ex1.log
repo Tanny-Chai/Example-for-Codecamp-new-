@@ -1,0 +1,28 @@
+//String เป็น Iterable
+undefined
+let str = "HTML, CSS, Javascript"
+undefined
+for(let s of str)
+    console.log(s)
+VM1034:2 H
+VM1034:2 T
+VM1034:2 M
+VM1034:2 L
+VM1034:2 ,
+VM1034:2  
+VM1034:2 C
+VM1034:2 S
+VM1034:2 S
+VM1034:2 ,
+VM1034:2  
+VM1034:2 J
+VM1034:2 a
+VM1034:2 v
+VM1034:2 a
+VM1034:2 s
+VM1034:2 c
+VM1034:2 r
+VM1034:2 i
+VM1034:2 p
+VM1034:2 t
+undefined
