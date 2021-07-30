@@ -1,0 +1,14 @@
+let arr = []
+undefined
+arr.fill(0)
+[]
+length: 0
+[[Prototype]]: Array(0)
+let arr = new Array()
+undefined
+arr
+[]
+let arr = new Array(10)
+undefined
+arr
+(10) [empty × 10]
