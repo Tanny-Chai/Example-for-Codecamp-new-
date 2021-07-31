@@ -1,0 +1,13 @@
+let n = new Map()
+undefined
+n.set(1, 'one').set(2, 'two').set(3, 'three')
+Map(3) {1 => "one", 2 => "two", 3 => "three"}
+
+n
+Map(3) {1 => "one", 2 => "two", 3 => "three"}
+n.get(1)
+"one"
+n.get(2)
+"two"
+n.get(3)
+"three"

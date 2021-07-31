@@ -1,0 +1,38 @@
+// new Map() – สร้าง Map ขึ้นมาใหม่
+// map.set(key, value) – เก็บ key และ value ลง Map
+// map.get(key) – คืนค่า value ของ key ใน Map, undefined ถ้า key นั้นไม่มีอยู่ใน Map
+// map.has(key) – เป็น true ถ้า Map นั้นมี key
+// map.delete(key) – ลบ value ที่มี key ออกจาก Map
+// map.clear() – ลบทุกอย่างออกจาก Map
+// map.size – คืนค่าเป็นขนาดของ Map
+undefined
+let m = new Map()
+undefined
+m
+Map(0) {}
+m.set('name', 'Joh')
+Map(1) {"name" => "Joh"}
+m
+Map(1) {"name" => "Joh"}
+m.set('Age', 25).set("gender", 'male').set("from", 'bkk')
+Map(4) {"name" => "Joh", "Age" => 25, "gender" => "male", "from" => "bkk"}
+m.set(true, 'single')
+Map(5) {"name" => "Joh", "Age" => 25, "gender" => "male", "from" => "bkk", true => "single"}
+m.set(false, 'married')
+Map(6) {"name" => "Joh", "Age" => 25, "gender" => "male", "from" => "bkk", true => "single", …}
+m.get("Age")
+25
+m.get("From")
+undefined
+m.get(true)
+"single"
+m.get(false)
+"married"
+m.get(prompt('key?'))
+"Joh"
+m.get(prompt('key?'))
+undefined
+//ใส่ key ที่มันไม่มี
+undefined
+//ใส่ true false ไม่ได้
+undefined

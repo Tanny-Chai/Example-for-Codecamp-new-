@@ -1,0 +1,16 @@
+let user = {
+    name: 'John',
+    age: 24,
+    gender: 'male',
+    from: 'bkk'
+}
+undefined
+let n = new Map()
+undefined
+n.set(1, 'one').set(2, 'two').set(3, 'three').set(4, user).set(user, "VIP Member")
+Map(5) {1 => "one", 2 => "two", 3 => "three", 4 => {…}, {…} => "VIP Member"}
+
+n[5] = "five"
+"five"
+n
+Map(5) {1 => "one", 2 => "two", 3 => "three", 4 => {…}, {…} => "VIP Member"}

@@ -1,0 +1,23 @@
+let user = {
+    name: 'John',
+    age: 24,
+    gender: 'male',
+    from: 'bkk'
+}
+undefined
+user.age
+24
+user["age"]
+24
+
+let m_user = new Map(
+    [ ['name', 'John'],
+      ['age', 24],
+      ['gender', 'male'],
+      ['from', 'bkk']
+     ])
+undefined
+user
+{name: "John", age: 24, gender: "male", from: "bkk"}
+m_user
+Map(4) {"name" => "John", "age" => 24, "gender" => "male", "from" => "bkk"}
