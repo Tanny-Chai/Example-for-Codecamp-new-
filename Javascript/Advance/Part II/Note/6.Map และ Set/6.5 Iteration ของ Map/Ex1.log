@@ -1,0 +1,44 @@
+let m = new Map([
+    [ 1, 'one' ],
+    [ 2, 'two' ],
+    [ 3, 'three' ],
+    [ 4, 'four' ],
+    [ 5, 'five' ]
+    ])
+undefined
+ท
+VM278:1 Uncaught ReferenceError: ท is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM278:1
+m
+Map(5) {1 => "one", 2 => "two", 3 => "three", 4 => "four", 5 => "five"}
+m.forEach( function (v,k) {
+    console.log(`${v} is in ${k}`)
+})
+VM517:2 one is in 1
+VM517:2 two is in 2
+VM517:2 three is in 3
+VM517:2 four is in 4
+VM517:2 five is in 5
+undefined
+//ลดรูปฟังก์ชัน
+m.forEach( (v,k) => {
+    console.log(`${v} is in ${k}`)
+})
+VM564:3 one is in 1
+VM564:3 two is in 2
+VM564:3 three is in 3
+VM564:3 four is in 4
+VM564:3 five is in 5
+undefined
+let nn = m.forEach( (v,k) => {
+    console.log(`${v} is in ${k}`)
+})
+VM607:2 one is in 1
+VM607:2 two is in 2
+VM607:2 three is in 3
+VM607:2 four is in 4
+VM607:2 five is in 5
+undefined
+nn
+undefined

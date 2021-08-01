@@ -1,0 +1,60 @@
+let m = new Map([
+    [ 1, 'one' ],
+    [ 2, 'two' ],
+    [ 3, 'three' ],
+    [ 4, 'four' ],
+    [ 5, 'five' ]
+    ])
+undefined
+let nn = m.forEach( (v,k) => {
+    console.log(`${v} is in ${k}`)
+})
+VM636:2 one is in 1
+VM636:2 two is in 2
+VM636:2 three is in 3
+VM636:2 four is in 4
+VM636:2 five is in 5
+undefined
+
+m.forEach( (v,k) => {
+    if(k === 3) m.set(k, "Third")
+    console.log(`${v} is in ${k}`)
+})
+VM798:3 one is in 1
+VM798:3 two is in 2
+VM798:3 three is in 3
+VM798:3 four is in 4
+VM798:3 five is in 5
+undefined
+m
+Map(5) {1 => "one", 2 => "two", 3 => "Third", 4 => "four", 5 => "five"}
+// เปลี่ยน three เป็น third ภายใน m เท่านั้น
+undefined
+m.forEach( v => console.log(v) )
+VM1026:1 one
+VM1026:1 two
+VM1026:1 Third
+VM1026:1 four
+VM1026:1 five
+undefined
+m.forEach( (v,k) => console.log(v) )
+VM1036:1 one
+VM1036:1 two
+VM1036:1 Third
+VM1036:1 four
+VM1036:1 five
+undefined
+m.forEach( (v,k) => console.log(k) )
+VM1054:1 1
+VM1054:1 2
+VM1054:1 3
+VM1054:1 4
+VM1054:1 5
+undefined
+m.forEach( k => console.log(k) )
+VM1084:1 one
+VM1084:1 two
+VM1084:1 Third
+VM1084:1 four
+VM1084:1 five
+undefined
