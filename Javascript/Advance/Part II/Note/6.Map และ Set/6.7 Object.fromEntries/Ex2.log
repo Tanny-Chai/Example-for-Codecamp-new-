@@ -1,0 +1,7 @@
+let prod = Object.fromEntries( [
+    [ 'pname', 'Apple' ],
+    [ 'price', 400 ]
+    ])
+undefined
+prod
+{pname: "Apple", price: 400}

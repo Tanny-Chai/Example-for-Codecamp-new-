@@ -1,0 +1,11 @@
+let user = {
+    name: 'John',
+    age: 24,
+    gender: 'Male',
+    from:'bkk'
+}
+undefined
+user
+{name: "John", age: 24, gender: "Male", from: "bkk"}
+Object.entries(user)
+(4) [Array(2), Array(2), Array(2), Array(2)]0: (2) ["name", "John"]1: (2) ["age", 24]2: (2) ["gender", "Male"]3: (2) ["from", "bkk"]length: 4[[Prototype]]: Array(0)

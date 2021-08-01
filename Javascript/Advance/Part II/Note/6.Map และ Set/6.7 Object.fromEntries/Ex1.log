@@ -1,0 +1,23 @@
+let user = {
+    name: 'John',
+    age: 24,
+    gender: 'Male',
+    from:'bkk'
+}
+undefined
+let om = Object.entries(user)
+undefined
+let mm = new Map(om)
+undefined
+mm.set("name", "Doe")
+Map(4) {"name" => "Doe", "age" => 24, "gender" => "Male", "from" => "bkk"}
+mm
+Map(4) {"name" => "Doe", "age" => 24, "gender" => "Male", "from" => "bkk"}
+let user_ex = Object.fromEntries(mm)
+undefined
+user_ex
+{name: "Doe", age: 24, gender: "Male", from: "bkk"}
+// Object.entries(user) แปลงไป
+undefined
+//Object.fromEntries(user) แปลงกลับ
+undefined
