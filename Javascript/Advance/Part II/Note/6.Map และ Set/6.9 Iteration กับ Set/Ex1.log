@@ -1,0 +1,30 @@
+let set1 = new Set([ "ABC", "DEF", "GHI" ])
+undefined
+set1.keys()
+SetIterator {"ABC", "DEF", "GHI"}
+for (let k of set1.keys())
+    console.log(k)
+VM2020:2 ABC
+VM2020:2 DEF
+VM2020:2 GHI
+undefined
+for (let v of set1.values())
+    console.log(v)
+VM2151:2 ABC
+VM2151:2 DEF
+VM2151:2 GHI
+undefined
+for (let e of set1.entries())
+    console.log(e)
+VM2261:2 (2) ["ABC", "ABC"]
+VM2261:2 (2) ["DEF", "DEF"]
+VM2261:2 (2) ["GHI", "GHI"]
+undefined
+//เป็น Array 2 มิติ
+undefined
+let sm = new Map( set1.entries() )
+undefined
+sm
+Map(3) {"ABC" => "ABC", "DEF" => "DEF", "GHI" => "GHI"}
+sm.set(1, "ABC")
+Map(4) {"ABC" => "ABC", "DEF" => "DEF", "GHI" => "GHI", 1 => "ABC"}

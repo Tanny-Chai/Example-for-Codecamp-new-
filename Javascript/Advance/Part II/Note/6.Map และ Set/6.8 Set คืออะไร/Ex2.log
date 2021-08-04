@@ -1,0 +1,19 @@
+let arr = [1,2,2,3,3,4,4,5,6,6,7,7]
+undefined
+arr
+(12) [1, 2, 2, 3, 3, 4, 4, 5, 6, 6, 7, 7]
+let s = new Set(arr)
+undefined
+s
+Set(7) {1, 2, 3, 4, 5, …}[[Entries]]0: 11: 22: 33: 44: 55: 66: 7size: (...)[[Prototype]]: Set
+//ตัวซ้ำถูกกำจัดหมด คือการทำงานของ set
+undefined
+let ars = Array.from(s)
+undefined
+ars
+(7) [1, 2, 3, 4, 5, 6, 7]0: 11: 22: 33: 44: 55: 66: 7length: 7[[Prototype]]: Array(0)
+
+s
+Set(7) {1, 2, 3, 4, 5, …}[[Entries]]0: 11: 22: 33: 44: 55: 66: 7size: (...)[[Prototype]]: Set
+s[0]
+undefined

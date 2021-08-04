@@ -1,0 +1,53 @@
+let s = new Set( [ 1,2,3,4,5,"A" ] )
+undefined
+s
+Set(6) {1, 2, 3, 4, 5, …}
+s.add("B")
+Set(7) {1, 2, 3, 4, 5, …}
+s.forEach( v => console.log(v) )
+VM26:1 1
+VM26:1 2
+VM26:1 3
+VM26:1 4
+VM26:1 5
+VM26:1 A
+VM26:1 B
+undefined
+s.delete("A")
+true
+s
+Set(6) {1, 2, 3, 4, 5, …}
+s.forEach( v => console.log(v) )
+VM48:1 1
+VM48:1 2
+VM48:1 3
+VM48:1 4
+VM48:1 5
+VM48:1 B
+undefined
+s.delete("B")
+true
+s
+Set(5) {1, 2, 3, 4, 5}
+s.delete(3)
+true
+s
+Set(4) {1, 2, 4, 5}
+s.add(3)
+Set(5) {1, 2, 4, 5, 3}
+s.add(3)
+Set(5) {1, 2, 4, 5, 3}
+s.add(6)
+Set(6) {1, 2, 4, 5, 3, …}[[Entries]]0: 11: 22: 43: 54: 35: 6size: (...)[[Prototype]]: Set
+s.add( {name : "Johe", age : 25} )
+Set(7) {1, 2, 4, 5, 3, …}
+s
+Set(7) {1, 2, 4, 5, 3, …}
+s.clear()
+undefined
+s
+Set(0) {}
+s.size
+0
+//สำหรับ set ใช้ size ไม่ใช้ length
+undefined
